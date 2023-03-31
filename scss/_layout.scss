@@ -1,5 +1,37 @@
 .container {
   display: grid;
+  background: pink;
   width: 100vw;
   height: 100vh;
+  grid-template: 70px 65px 50px auto 80px / 80px auto;
+  grid-template-areas:
+    "nav top-bar"
+    "nav header"
+    "nav filter-bar"
+    "nav main"
+    "nav footer";
+
+  nav {
+    grid-area: nav;
+  }
+  .top-bar {
+    background: lightsalmon;
+    grid-area: top-bar;
+  }
+  header {
+    background: lightskyblue;
+    grid-area: header;
+  }
+  .filter-bar {
+    background: lightgreen;
+    grid-area: filter-bar;
+  }
+  main {
+    background: lightblue;
+    grid-area: main;
+  }
+  footer {
+    background: lightcyan;
+    grid-area: footer;
+  }
 }

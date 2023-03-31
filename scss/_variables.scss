@@ -1,1 +1,18 @@
+// Fonts
 $font-main: "Open Sans", sans-serif;
+
+// Navbar
+$navbar-bg: linear-gradient(
+  to bottom,
+  #3a3f57,
+  #353a50,
+  #303549,
+  #2c3042,
+  #272b3b
+);
+$navbar-link: #ffffff;
+$navbar-link-hover: #dfdfdf;
+$navbar-link-size: 1.75rem;
+
+// ICONS
+$rounded-icon: 0.2rem;
