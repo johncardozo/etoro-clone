@@ -1,6 +1,8 @@
+@use "variables" as v;
+
 .container {
   display: grid;
-  background: pink;
+  background: v.$color-bg-main;
   width: 100vw;
   height: 100vh;
   grid-template: 70px 65px 50px auto 80px / 80px auto;
@@ -15,7 +17,6 @@
     grid-area: nav;
   }
   .top-bar {
-    background: lightsalmon;
     grid-area: top-bar;
   }
   header {

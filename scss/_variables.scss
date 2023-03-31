@@ -1,5 +1,12 @@
+// General
+$color-bg-main: #fff;
+$color-divider: #ededed;
+$color-primary: #54626e;
+$color-primary-darker: #1a2d3d;
 // Fonts
 $font-main: "Open Sans", sans-serif;
+$color-placeholder-input: #bababa;
+$color-input: #777777;
 
 // Navbar
 $navbar-bg: linear-gradient(
@@ -16,3 +23,7 @@ $navbar-link-size: 1.75rem;
 
 // ICONS
 $rounded-icon: 0.2rem;
+
+// FORMS
+$color-bg-input: #f5f5f5;
+$rounded-input: 0.2rem;

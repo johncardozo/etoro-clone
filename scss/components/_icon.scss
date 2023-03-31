@@ -1,0 +1,17 @@
+@use "../variables" as v;
+
+@mixin icon($svg, $color: v.$navbar-link, $hover: v.$navbar-link-hover) {
+  width: v.$navbar-link-size;
+  height: v.$navbar-link-size;
+  background-color: $color;
+  background-repeat: no-repeat;
+  background-size: auto;
+  cursor: pointer;
+  // Chrome/Edge
+  -webkit-mask: $svg;
+  // Firefox/Safari
+  mask: $svg;
+  &:hover {
+    background-color: $hover;
+  }
+}
