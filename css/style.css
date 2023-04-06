@@ -246,4 +246,25 @@
   background-color: #3fba23;
 }
 
+.filterbar {
+  display: flex;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  gap: 0.5rem;
+}
+.filterbar__btn {
+  font-family: "Open Sans", sans-serif;
+  color: #54626e;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid #ededed;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
+.filterbar__btn-active, .filterbar__btn:hover {
+  color: #fff;
+  background-color: #1a2d3d;
+}
+
 /*# sourceMappingURL=style.css.map */

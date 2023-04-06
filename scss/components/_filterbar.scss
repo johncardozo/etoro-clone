@@ -1,0 +1,25 @@
+@use "../variables" as v;
+
+.filterbar {
+  display: flex;
+  padding-left: 1rem;
+  padding-bottom: 0.5rem;
+  gap: 0.5rem;
+
+  &__btn {
+    font-family: v.$font-main;
+    color: v.$color-primary;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid v.$color-divider;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+
+    &-active,
+    &:hover {
+      color: v.$color-bg-main;
+      background-color: v.$color-primary-darker;
+    }
+  }
+}
